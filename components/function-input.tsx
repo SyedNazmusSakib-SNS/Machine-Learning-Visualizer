@@ -70,11 +70,11 @@ export default function FunctionInput({
             <Label htmlFor="linear">Linear Function (y = mx + c)</Label>
           </div>
           <div className="flex items-center space-x-2">
-            <RadioGroupItem value="polynomial" id="polynomial" />
+            <RadioGroupItem value="polynomial" id="polynomial" disabled={true} />
             <Label htmlFor="polynomial">Polynomial Function</Label>
           </div>
           <div className="flex items-center space-x-2">
-            <RadioGroupItem value="custom" id="custom" />
+            <RadioGroupItem value="custom" id="custom" disabled={true} />
             <Label htmlFor="custom">Custom Function</Label>
           </div>
         </RadioGroup>
